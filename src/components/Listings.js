@@ -15,7 +15,7 @@ export default function Listings(props) {
             <div style={{display:'grid', gridTemplateColumns:"50% 50%"}}>
                     {props.businesses && 
                     <div>
-                        <LoadScript googleMapsApiKey="AIzaSyAVA4rcMV0PwCwvOOGJz6MjjZYFePJdv-E">               
+                        <LoadScript googleMapsApiKey="">               
                             {props.businesses.map((biz, index) => (
                                 <Details key={index} biz={biz}/>
                                 ))}
